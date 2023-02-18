@@ -149,11 +149,10 @@ def callback_query(call):
         bot.send_message(call.from_user.id, f"Ось ваш вибір: {wish_list_end} \nЗагальна сума: {price}.\nДякую, що скористалися цим ботом."
                                             f" Пам'ятайте, що самолікування може бути шкідливим для вашого здоров'я, а цей бот створила людина, яка не є дерматологом чи косметологом."
                                             f" До зустрічі!")
-        bot.send_photo(call.from_user.id, open("taehyung.jpg", "rb"))
+        bot.send_photo(call.from_user.id, open("taehyung.png", "rb"))
 
 
 bot.polling(none_stop=True)
-print("Hello my name is Suzie")
-print("Aaaa")
+
 #.\venv\Scripts\activate
 #Set-ExecutionPolicy Unrestricted -Scope Process
